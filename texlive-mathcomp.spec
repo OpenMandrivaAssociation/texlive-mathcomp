@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/mathcomp
+# catalog-date 2007-01-09 18:22:13 +0100
+# catalog-license lppl
+# catalog-version 0.1f
 Name:		texlive-mathcomp
 Version:	0.1f
 Release:	1
@@ -41,6 +47,7 @@ of the Text Companion fonts (TS1 encoding) in maths mode.
 #- source
 %doc %{_texmfdistdir}/source/latex/mathcomp/mathcomp.dtx
 %doc %{_texmfdistdir}/source/latex/mathcomp/mathcomp.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -51,3 +58,5 @@ of the Text Companion fonts (TS1 encoding) in maths mode.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
