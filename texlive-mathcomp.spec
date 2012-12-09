@@ -48,3 +48,17 @@ of the Text Companion fonts (TS1 encoding) in maths mode.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.1f-2
++ Revision: 753773
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.1f-1
++ Revision: 718968
+- texlive-mathcomp
+- texlive-mathcomp
+- texlive-mathcomp
+- texlive-mathcomp
+
