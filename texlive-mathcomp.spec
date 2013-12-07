@@ -6,7 +6,7 @@
 # catalog-version 0.1f
 Name:		texlive-mathcomp
 Version:	0.1f
-Release:	4
+Release:	5
 Summary:	Text symbols in maths mode
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/mathcomp
