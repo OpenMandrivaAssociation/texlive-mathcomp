@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Text symbols in maths mode
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/mathcomp
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/mathcomp
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/mathcomp.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/mathcomp.doc.r%{version}.tar.xz
